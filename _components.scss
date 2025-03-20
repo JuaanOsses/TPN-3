@@ -1,0 +1,33 @@
+.hero {
+    background-color:rgb(44, 59, 59);
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+  }
+
+  
+  .services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    h2 {
+      text-align: center;
+    }
+  }
+  
+  .service-item {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+  }
+  
+  .service-item:hover {
+    transform: translateY(-5px); /* Eleva ligeramente */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  }
